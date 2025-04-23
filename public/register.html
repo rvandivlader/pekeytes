@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daftar Akun Cabal</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Register - Cabal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-r from-green-400 to-blue-500 min-h-screen flex items-center justify-center">
-  <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
-    <h2 class="text-3xl font-bold text-center mb-6 text-green-700">Buat Akun Baru</h2>
-    <form action="register.php" method="POST" class="space-y-4">
-      <input type="text" name="username" placeholder="Username" required class="w-full px-4 py-2 border rounded-lg focus:ring focus:outline-none">
-      <input type="password" name="password" placeholder="Password" required class="w-full px-4 py-2 border rounded-lg focus:ring focus:outline-none">
-      <input type="password" name="confirm_password" placeholder="Ulangi Password" required class="w-full px-4 py-2 border rounded-lg focus:ring focus:outline-none">
-      <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition">Daftar</button>
+<body class="bg-gray-900 flex items-center justify-center h-screen">
+  <div class="bg-white rounded-2xl shadow-lg p-8 w-full max-w-md">
+    <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">Daftar Akun Cabal</h2>
+    <form action="https://25f4-114-10-45-96.ngrok-free.app/register.php" method="POST" class="space-y-4">
+      <input type="text" name="username" placeholder="Username" required class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      <input type="password" name="password" placeholder="Password" required class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition">Daftar</button>
     </form>
-    <p class="text-center text-sm mt-4 text-gray-600">
-      Sudah punya akun? <a href="login.html" class="text-green-600 hover:underline">Masuk sekarang</a>
+    <p class="text-center text-sm text-gray-600 mt-4">
+      Sudah punya akun? 
+      <a href="login.html" class="text-green-600 hover:underline">Login disini</a>
     </p>
   </div>
 </body>
